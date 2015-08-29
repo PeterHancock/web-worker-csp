@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Peter Hancock <peter.hancock@gmail.com> (https://peterhancock.github.io)",
   "repository": {
-    "url": "git://github.com/PeterHancock/csp-web-workers.git"
+    "url": "git://github.com/PeterHancock/web-worker-csp.git"
   },
   "main": "index.js",
   "scripts": {

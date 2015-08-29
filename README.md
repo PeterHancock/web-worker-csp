@@ -1,4 +1,8 @@
+#web-worker-csp
+
 A [js-csp](https://github.com/ubolonton/js-csp) `channel` interface for [Web Workers](http://www.w3.org/TR/workers/)
+
+>`csp.put` and `csp.take` from web workers
 
 ## Example
 `main.js`
@@ -58,7 +62,7 @@ The browser console should show
 ...
 ```
 
-## Install
+## install
 npm i web-worker-csp
 
 ## license

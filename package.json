@@ -1,0 +1,26 @@
+{
+  "name": "web-worker-csp",
+  "description": "Create js-csp channels on top of Web Workers",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Peter Hancock <peter.hancock@gmail.com> (https://peterhancock.github.io)",
+  "repository": {
+    "url": "git://github.com/PeterHancock/csp-web-workers.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony `which tape` test/**/*.js",
+    "build:demo": "browserify -r debug demo/src/main.js -o demo/public/bundle.js",
+    "start": "http-server demo/public"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "tape": "~4.2.0",
+    "webworkify": "^1.0.2"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "js-csp": "^0.5.0",
+    "object-assign": "^4.0.1"
+  }
+}

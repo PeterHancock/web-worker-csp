@@ -1,7 +1,7 @@
 {
   "name": "web-worker-csp",
   "description": "Create js-csp channels on top of Web Workers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Peter Hancock <peter.hancock@gmail.com> (https://peterhancock.github.io)",
   "repository": {

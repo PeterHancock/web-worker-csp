@@ -51,7 +51,7 @@ self.addEventListener('message', function (msg) {
 <script src="bundle.js"></script>
 ```
 
-where `bundle.js` is output of running [browserify](https://github.com/substack/browserify) on `main.js`
+where `bundle.js` is output of running [browserify](http://browserify.org/) on `main.js`
 
 The browser console should show
 

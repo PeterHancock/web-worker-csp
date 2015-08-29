@@ -23,5 +23,5 @@ function run(worker) {
 }
 
 [1,2,3].forEach( function (id) {
-     run(workerChan(webworkify(webWorker), { id: '#' + id , close: true }))
+     run(workerChan(webworkify(webWorker), { id: '#' + id }))
  })

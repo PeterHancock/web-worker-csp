@@ -1,9 +1,11 @@
 var csp = require('js-csp'),
     assign = require('object-assign'),
-    debug = require('debug')('js-csp-worker');
+    debug = require('debug')('js-csp-worker'),
+    uuid = require('uuid').v4;
 
 function worker(worker, opts) {
-    var id = opts.id || Math.random();  //TODO int
+    opts = opts || {};
+    var id = opts.id || uuid();
     var close = !!opts.close || true;
     var chi = opts.chi || csp.chan();
     var cho = opts.cho || csp.chan();
